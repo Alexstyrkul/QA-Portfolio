@@ -1,7 +1,7 @@
 # Oleksandr Styrkul
 
 **QA Engineer**  
- | [alexroast3@gmail.com](mailto:alexroast3@gmail.com) | Warsaw, Poland  
+[alexroast3@gmail.com](mailto:alexroast3@gmail.com) | Warsaw, Poland  
 [LinkedIn](https://linkedin.com/in/oleksandr-styrkul) | [GitHub](https://github.com/Alexstyrkul/FileManager-UITests)
 
 ---
