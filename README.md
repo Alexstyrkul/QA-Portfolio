@@ -87,6 +87,7 @@ Pipeline steps:
 
 ## Bug Reporting
 
-I use GitHub Issues for structured bug reporting with clear steps to reproduce, expected vs actual results, and environment details.
+I follow a structured approach to bug reporting — clear reproduction steps, expected vs actual behaviour, environment details, severity classification, and verification test cases.
 
-Example: [Issues in FileManager-UITests](https://github.com/Alexstyrkul/FileManager-UITests/issues)
+- [Bug Report Template](./Bug-Reporting/Template.md)
+- [Sample Bug Report](./Bug-Reporting/Sample-Bug-Report.md)
