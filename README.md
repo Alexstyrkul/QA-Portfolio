@@ -6,11 +6,18 @@ QA Engineer at Readdle. This repository is an overview of my QA skills and hands
 
 ## Table of Contents
 
+- [Resume](#resume)
 - [About Me](#about-me)
 - [Mobile Automation](#mobile-automation)
 - [API Testing](#api-testing)
 - [CI/CD](#cicd)
 - [Bug Reporting](#bug-reporting)
+
+---
+
+## Resume
+
+[View My Resume](./resume.md)
 
 ---
 
@@ -31,13 +38,21 @@ XCUITest automation suite for an open-source iOS FileManager app.
 - Language: Swift
 - Framework: XCUITest (Apple native)
 - Pattern: Page Object Model
-- Coverage: file navigation, create/delete/rename operations, file preview
+- Coverage: login flow, add folder, add photo from gallery
 
 ```
-FileManager-UITests/
-├── Base/          # BaseTest + AppScreen (Page Object base)
-├── Screens/       # FileListScreen, FileDetailScreen
-└── Tests/         # NavigationTests, FileOperationsTests, FilePreviewTests
+FileManagerUITests/
+├── Base/
+│   ├── BaseTest.swift       # Base test class with setup/teardown and shared helpers
+│   └── AppScreen.swift      # Base Page Object with shared wait logic
+├── Screens/
+│   ├── FileListScreen.swift    # Page Object — file list screen
+│   ├── LoginScreen.swift       # Page Object — login screen
+│   └── SetPasswordScreen.swift # Page Object — set password screen
+└── Tests/
+    ├── LoginTests.swift         # Login and password setup flow
+    ├── AddFolderTests.swift     # Create folder, empty name validation
+    └── AddPhotoTests.swift      # Open photo picker from file list
 ```
 
 ---
